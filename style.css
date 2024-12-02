@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Inter;
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 120px;
+    padding: 45px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 35px;
+}
+.top h1{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 45.99px;
+    color: rgba(54, 158, 255, 1);
+}
+.top #desc1{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: rgba(62, 62, 62, 1);
+}
+.top #desc2{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: rgba(128, 128, 128, 1);
+}
+.imagetv{
+    height: 55%;
+    width: 70%;
+    margin-bottom: 100px;
+}
+.colorbox{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+#orange{
+    background-color: rgba(251, 223, 147, 1);
+}
+.colorbox #colorp{
+    color: rgba(30, 30, 30, 1);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.63px;
+}
+.colorbox #name{
+    font-weight: 400;
+    line-height: 14.52px;
+    font-size: 12px;
+    color: rgba(83, 83, 83, 1);
+    margin-bottom: 25px;
+}
+#green{
+    background-color: rgba(211, 251, 147, 1);
+}
+#purple{
+    background-color: rgba(225, 147, 251, 1);
+}
+#blue{
+    background-color: rgba(147, 240, 251, 1);
+}
+#yellow{
+    background-color: rgba(247, 251, 147, 1);
+}
+@media screen and (min-width: 834px){
+
+.bottom{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.colorbox{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    width: 35%;
+}
+.imagetv{
+    height: 45%;
+    width: 60%;
+    margin-bottom: 30px;
+}
+body section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+.jsp{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+}
+@media screen and (min-width:1440px){
+    .top div{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        gap: 35px;
+    }
+    .top{
+        display: flex;
+    }
+}
